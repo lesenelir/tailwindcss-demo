@@ -6,12 +6,15 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
+    // 扩展配置项，不覆盖tailwind原有的配置项
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
+      colors: {
+        myColor: '#b3b5ae',
+        colorObject: {
+          blue1: '#6ca4bd',
+          blue2: '#046791'
+        }
+      }
     },
   },
   plugins: [],
