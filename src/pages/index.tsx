@@ -5,6 +5,8 @@ function Home() {
     <div className='min-h-full flex justify-center items-center'>
        <ul>
          <li><Link href={'/color'}>Color Page</Link></li>
+         <li><Link href={'/custom'}>Custom Page</Link></li>
+         <li><Link href={'/typography'}>Typography Page</Link></li>
        </ul>
     </div>
   )
