@@ -6,6 +6,15 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
+    fontSize: {
+      sm: '0.8rem',
+      base: '60px',  // change the text-base
+      xl: '1.25rem',
+      '2xl': '1.563rem',
+      '3xl': '1.953rem',
+      '4xl': '2.441rem',
+      '5xl': '3.052rem',
+    },
     screens: {
       sm: '480px',
       md: '768px', // @media (max-width: 768px)
