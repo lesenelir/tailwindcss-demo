@@ -8,6 +8,7 @@ function Home() {
          <li><Link href={'/custom'}>Custom Page</Link></li>
          <li><Link href={'/typography'}>Typography Page</Link></li>
          <li><Link href={'/space'}>Space Page</Link></li>
+         <li><Link href={'/flex'}>Flex Page</Link></li>
        </ul>
     </div>
   )
