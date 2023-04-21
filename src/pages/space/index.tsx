@@ -11,6 +11,8 @@ function SpacePage() {
         <div className='w-4/5 bg-green-500'>main</div>
       </div>
 
+      {/* Custom Value */}
+      <p className='p-5px'>Custom Padding Value</p>
     </>
   )
 }

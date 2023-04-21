@@ -37,6 +37,9 @@ module.exports = {
           blue1: '#6ca4bd',
           blue2: '#046791'
         }
+      },
+      padding: {
+        '5px': '5px'
       }
     },
   },
